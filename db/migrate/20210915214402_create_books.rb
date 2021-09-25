@@ -6,8 +6,7 @@ class CreateBooks < ActiveRecord::Migration[5.2]
       t.integer :price
       t.integer :weight
       t.reference :author
-     
-
+      t.reference :category
       t.timestamps
     end
   end
